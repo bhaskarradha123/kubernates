@@ -273,6 +273,7 @@ This repository serves as my personal learning journal where I will continuously
 ---
 
 
+```
 kubernetes-learning/
 │
 ├── README.md
@@ -298,7 +299,7 @@ kubernetes-learning/
     ├── crashloopbackoff.md
     ├── imagepullbackoff.md
     └── pod-debugging.md
-
+```
 ---
 
 ## 🚀 Happy Learning!
