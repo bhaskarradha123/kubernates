@@ -2,18 +2,6 @@
 
 # Kubernetes Day 1 – Introduction & Architecture
 
-## Today's Goal
-
-By the end of today, you should understand:
-
-* What Kubernetes is
-* Why Kubernetes was created
-* Problems it solves
-* Kubernetes Architecture
-* Important components
-* Your first Kubernetes commands (without affecting your office cluster)
-
----
 
 # Step 1: Why do we need Kubernetes?
 
@@ -301,37 +289,10 @@ This is the basic lifecycle you'll use constantly.
 
 ---
 
-# Step 10: Commands You'll Learn Soon
 
-Don't worry about memorizing these yet.
-
-```bash
-kubectl get pods
-```
-
-```bash
-kubectl get nodes
-```
-
-```bash
-kubectl describe pod
-```
-
-```bash
-kubectl logs
-```
-
-```bash
-kubectl exec
-```
-
-These will become second nature as we practice.
-
----
 
 # Practice Task for Today
 
-Since you don't want to experiment on your office Kubernetes cluster, install a local learning environment first. A good option is:
 
 * **Minikube** (recommended for beginners), or
 * **Kind (Kubernetes in Docker)** if you're already comfortable with Docker.
