@@ -1,4 +1,4 @@
-# Kubernetes Day 2 Notes – YAML & Creating Your First Pod
+# Kubernetes Day 2 Notes – YAML & Creating  First Pod
 
 ## Objective
 
