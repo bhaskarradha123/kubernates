@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: nginx-pod
+
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+
+
+
+# -----------------------------
+# Nginx Pod Configuration
+#
+# kubectl apply -f pod.yaml                       -- for applying and updating
+# kubectl get pods                                --to display all pods
+# kubectl describe pod nginx-pod                  -- to display a specific pod
+# kubectl logs nginx-pod                          --to observe stdout stderr of a pod
+# kubectl exec -it nginx-pod -- /bin/bash         --Executes commands inside a running container.
+# kubectl delete pod nginx-pod                    --to delete a pod
+# -----------------------------
