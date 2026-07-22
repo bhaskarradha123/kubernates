@@ -985,11 +985,21 @@ A Pod can be in the Running state while the application inside it is failing. Lo
 # Commands Practiced
 
 ```bash
-kubectl describe pod nginx-pod
+mkdir fileName
 
-kubectl logs nginx-pod
+cd fileName
 
-kubectl exec -it nginx-pod -- /bin/bash
+vi fileName
+
+cat fileName
+
+kubectl apply -f fileName
+
+kubectl describe pod podName
+
+kubectl logs podName
+
+kubectl exec -it podName -- /bin/bash
 
 whoami
 
@@ -997,7 +1007,7 @@ pwd
 
 ls
 
-kubectl delete pod nginx-pod
+kubectl delete pod podName
 
 kubectl get pods
 ```
