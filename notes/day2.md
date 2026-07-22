@@ -446,34 +446,9 @@ It represents **Ready Containers / Total Containers** inside the Pod.
 
 It creates the resource if it doesn't exist or updates it if it already exists based on the YAML definition.
 
----
-
-# Commands Practiced
-
-```bash
-minikube status
-minikube start
-
-mkdir kubernetes-day2
-cd kubernetes-day2
-
-touch pod.yaml
-
-vi pod.yaml
-
-cat pod.yaml
-
-kubectl apply -f pod.yaml
-
-kubectl get pods
-```
 
 
-# Kubernetes Day 2 (Part 2) Notes – Working with Pods
 
-## Objective
-
-Learn how to inspect, troubleshoot, access, and delete Pods using `kubectl` commands.
 
 ---
 
@@ -519,6 +494,26 @@ kubectl delete pod
 Pod Deleted
 ```
 
+---
+# Commands for creating and viewing a pod
+
+```bash
+minikube status
+minikube start
+
+mkdir kubernetes-day2
+cd kubernetes-day2
+
+touch pod.yaml
+
+vi pod.yaml
+
+cat pod.yaml
+
+kubectl apply -f pod.yaml
+
+kubectl get pods
+```
 ---
 
 # 1. kubectl describe
