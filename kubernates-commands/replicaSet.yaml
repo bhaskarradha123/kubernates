@@ -24,7 +24,8 @@ spec:
 
 #----------------------------------------
 #
-#
-#
-#
+#kubectl scale rs podname --replicas=2     --for updating replica cound
+#kubectl get rs     --to display replicaset pods
+#kubectl get replicaset
+#kubectl get replicasets
 #----------------------------------------
